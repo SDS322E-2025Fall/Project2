@@ -5,7 +5,7 @@ output: html_document
 
 ## Group Members
 
-Specify the names and EIDs of all group members (if not working in a group just put your own name and EID):
+Specify the names and EIDs of all group members:
 
 
 
@@ -32,8 +32,7 @@ Load the dataset into R below. In addition, load any packages that you will need
 ## 
 ## draws a random sample of 50,000 rows from the `dat` object.
 
-
-
+library(tidyverse)
 ```
 
 
