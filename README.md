@@ -20,10 +20,8 @@ datasets below). In this project, you will need to
 
 ## Working independently or in a group
 
-For the project, you can work independently or in a group of at most 6
-students (including yourself). You can choose the members of your group
-(i.e. you do not have to use your lab group or the group you used for
-Project 1). If working in a group, you will only produce one unique
+For the project, you will work in a group of 4
+students (including yourself). You will only produce one unique
 report for the group.
 
 ## Preliminary Report
@@ -38,7 +36,8 @@ The preliminary report will be graded on **completion only**.
 Furthermore, if you decided to make a change to your project after
 completing the preliminary report, that is okay.
 
-The preliminary report will be submitted as a PDF in Gradescope.
+The preliminary report will be submitted as a PDF in Gradescope. The due date is 11/20/2025 11:59PM.
+
 
 ## Final Report
 
@@ -46,8 +45,8 @@ The final report will contain your main prediction model analysis. Use
 the file `Project2_Report.Rmd` in the Project 2 repository for your
 final report and follow the prompts in that file.
 
-The final report will be submitted as a PDF in Gradescope. **Make sure
-to mark the pages that correspond to each part of the project**.
+The final report will be submitted as a PDF in Gradescope. The due date is 12/08/2025 11:59PM.
+ **Make sure to mark the pages that correspond to each part of the project**.
 
 ## Suggested Datasets
 
@@ -95,24 +94,9 @@ folder.
 
 ## Download the RStudio Project
 
-1.  Open RStudio and click on “New Project…” in the drop down menu in
-    the upper right.
+Create the RStudio project for Project 2 by running the following command in R:
 
-2.  In the New Project Wizard, select Version Control.
-
-3.  In the next menu titled “Create Project from Version Control”,
-    select Git.
-
-4.  Under “Repository URL”, enter the web site URL for this lab:
-    <https://github.com/SDS322E/Project2>
-
-5.  Under “Project directory name”, enter Lab10. (RStudio may
-    automatically put this into the box for you.)
-
-6.  You may choose to select a directory to store the project or you can
-    use the default.
-
-7.  Click “Create Project”.
+usethis::create_from_github("https://github.com/SDS322E-2025Fall/Project2", fork = FALSE)
 
 Once you are in the RStudio project for **Project2** you will find
 
